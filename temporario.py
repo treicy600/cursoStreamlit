@@ -6,6 +6,8 @@ st.multiselect(
   'Quais são suas cores favoritas?',
   ['verde', 'amarelo', 'vermelho', 'azul'],
   ['amarelo', 'vermelho'])
+st.color_picker("Pick A Color", "#00f900")
+st.feedback("stars")
 
 st.toggle("toggle")
 st.text_area("Enter text")

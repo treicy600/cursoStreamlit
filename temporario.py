@@ -1,5 +1,7 @@
 import streamlit as st
 
-st.button("Botão Salvar")
+st.header("Cabeçalho")
 st.toggle("toggle")
-st.header("Botão Salvar")
+st.text_area("Enter text")
+st.text_imput("")
+st.button("Botão salvar")
